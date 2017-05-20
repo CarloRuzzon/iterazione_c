@@ -1,17 +1,21 @@
 #include<stdio.h>
 int main(){
-  int max=-9999,c, maxx=-9999, a=0;  
-  while(a<10){
-    a++;
-    printf("Inserire il %d numero:", a);
+  int max,c, maxx, a=0, b, d;  
+  printf("Inserire i numeri:");
+  scanf("%d", &b);
+  printf("Inserire i numeri:");
+  scanf("%d", &d);
+  while(a<8){
+    printf("Inserire i numeri:");
     scanf("%d", &c);
-    if(c==max || c==maxx);
-    else if(c>max){
-      maxx=max;
-      max=c;
+    if(c>max){
+      if(c>maxx){
+        maxx=c;
+      }
+      max=maxx;
     }
-    else if(c>maxx)maxx=c;
-    }
+    a++;
+  }
     printf("I numeri maggiori %d e %d", max, maxx);
   return 0;
 }
