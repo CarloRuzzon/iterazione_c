@@ -4,7 +4,7 @@ int main(){
   do{
     printf("Inserire il numero:");
     scanf("%d", &num);
-  }while(num<1);
+  }while(num<0);
   while(num>0){
     a=num%10;
     if(a==7){
