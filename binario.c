@@ -16,6 +16,7 @@ int main(){
       }
       else{
         printf("Reinserire il numero correttamente.\n");
+        a=0;
         break;
       }
     }
