@@ -29,6 +29,6 @@ int main()
   c+=3;
   c%=10;
 
-  printf("%d\n%d\n%d\n%d", a, b, c, d);
+  printf("Il numero decriptato e': %d%d%d%d\n", a, b, c, d);
   return 0;
 }
