@@ -2,11 +2,10 @@
 
 int main()
 {
-  int a, b = 20;
+  int a;
 
-  for (a=0; a<6; a++){
-    printf("%d ", b);
-    b-=6;
+  for (a = 20; a >= -10; a -= 6){
+    printf("%d ", a);
   }
 
   printf("\n");

@@ -2,13 +2,13 @@
 
 int main()
 {
-  int a, b = 19;
+  int a;
 
-  for(a=0; a<5; a++){
-    printf("%d ", b);
-    b+=8;
+  for(a = 19; a <= 51; a += 8){
+    printf("%d ", a);
   }
 
   printf("\n");
+
   return 0;
 }

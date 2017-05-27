@@ -2,10 +2,9 @@
 
 int main()
 {
-  int a, b=3;
-  for (a = 0; a < 5; a++){
-    printf("%d ", b);
-    b += 5;
+  int a;
+  for (a = 3; a <= 23; a += 5){
+    printf("%d ", a);
   }
 
   printf("\n");
