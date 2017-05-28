@@ -1,15 +1,14 @@
 #include<stdio.h>
 
 int main() {
-	int a, b = 0;
+	int a, b;
 	
 	for (a = 10; a > 0; a--) {
-		b = 0;
-		while (b < a) {
-			printf("*");
-			b++;
+		for (b = 0; b < a; b++) {
+			putchar('*');
 		}
-		printf("\n");
+		
+    putchar('\n');
 	}
 	return 0;
 }

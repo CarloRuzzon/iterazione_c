@@ -2,22 +2,22 @@
 
 int main () 
 {
-	int a, b, c = 0, d = 0;
+	int a, b, c, d = 0;
 
 	for (a = 10; a > 0; a--) {
-		b = 0;
-		while (b < a) {
-			printf(" ");
-			b++;
+				
+    for (b = 0; b < a; b++) {
+			putchar(' ');
 		}
 
-		d++;
-		c = 0;
-		while (c < d) {
-			printf("*");
-			c++;
+		
+    d++;
+		
+    for (c = 0; c < d; c++) {
+		  putchar('*');
 		}
-		printf("\n");
+		
+    putchar('\n');
 	}
 	return 0;
 }

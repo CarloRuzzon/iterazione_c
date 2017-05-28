@@ -6,20 +6,16 @@ int main()
 	
 	for (a = 10; a > 0; a--) {
 
-		c = 0;
-		while (c < d) {
-			printf(" ");
-			c++;
+		for (c = 0; c < d; c++) {
+			putchar(' ');
 		}
 		d++;
 		
-		b = 0;
-		while (b < a) {
-			printf("*");
-			b++;
+      for (b = 0; b < a; b++) {
+			putchar('*');
 		}
 		
-		printf("\n");
+		putchar('\n');
 		
 
 	}
