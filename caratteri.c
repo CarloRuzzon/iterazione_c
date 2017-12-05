@@ -1,11 +1,12 @@
 #include<stdio.h>
 
 int main(){
-  char v[5]="Ciao";
-  int i;
-  for(i = 0; i < 5; i++)
+  int i = 0;
+  char v[]="Ciao";
+    while(v[i] != '\0')
   {
     printf("%c\n", v[i]);
+    i++;
   }
   return 0; 
 }
